@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+	
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	
+	.redes-sociales {
+		text-align: center;
+	}
+}
+
+/*Clase para dispositivos grandes*/
+@media (min-width: 991px) {	
+	.redes-sociales {
+		text-align: right;
+	}
+	
+	.logo-img {
+		text-align: left;
+	}
+}
+
+/* Clase para darle estilos al logo */
+.logo-img img {
+	height: 200px;
+}
+
+/* Clase para darle estilos a los Iconos Sociales*/
+.social-img {
+	border-radius: 10px;
+}
+
+/*Clase para darle estilos a el contenido*/
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}

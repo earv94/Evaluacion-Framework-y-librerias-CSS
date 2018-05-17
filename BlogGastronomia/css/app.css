@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*clase del body*/
+.gastronomia-body {
+	background-image: url(../img/Cocina_Tipica_2.JPG);
+	background-attachment: scroll;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	width: 100%;
+ 	height: 100%;
+}
+
+/*clase del contenedor*/
+.contenedor {
+	background-color: chocolate;
+	opacity: 0.85;
+}
+
+/*clase del header*/
+#encabezado {
+	color: white;
+	border-right: solid 2px white;
+}
+
+.nombre {
+	text-align: left;
+}
+
+.slogan {
+	text-align: right;
+}
+
+/*clase para el contenedor*/
+.secciones {
+	border-top: solid 2px white;
+}
+
+/*clase de busqueda*/
+#busqueda {
+	background-color: blanchedalmond;	
+}
+
+/*clase de contenido*/
+.contenido {
+	background-color: lightgreen;
+}
+
+.comentarios {
+	border-top: solid 2px white;
+}
+
+.usuario {
+	background-color: lightgreen;
+}
+
+/*clase de imagenes*/

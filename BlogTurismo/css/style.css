@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*estilo para fondo*/
+.turismo-body {
+	background-image: url(../img/canon-del-chicamocha.jpg);
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	width: 100%;
+ 	height: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+#enviar {
+	text-align: center;
+	margin-bottom: 10px;
+}
